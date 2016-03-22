@@ -28,7 +28,7 @@ public class MyPersonalException extends RuntimeException{
         }
 
     }
-    static void throwError(byte b) throws ArithmeticException {
+    static void throwError(byte b) throws MyPersonalException {
         System.out.print("Start b="+b);
         System.out.println("\tTrying \"100/b\":"+ (100/b));
     }
